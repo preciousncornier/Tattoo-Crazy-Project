@@ -4,31 +4,85 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Book an Appointment</title>
   </head>
   <body>
     <div class="Buttons">
-        <button class="Home">
-          <a href="index.html"><strong>Home</strong></a>
-        </button>
-        <button class="Appointments">
-          <a href="appointment.html"><strong>Make an Appointment</strong></a>
-        </button>
-        <button class="Shop">
-          <a href="shop.html"><strong>Shop</strong></a>
-        </button>
-        <button class="Tattoo Gallery">
-          <a href="tgallery.html"><strong>Tattoo Gallery</strong></a>
-        </button>
-        <button class="Art Gallery">
-          <a href="agallery.html"><strong>Art Gallery</strong></a>
-        </button>
-        <button class="Contact">
-          <a href="contact.html"><strong>Contact</strong></a>
-        </button>
-      </div>
+      <button class="Home">
+        <a href="index.html"><strong>Home</strong></a>
+      </button>
+      <button class="Appointments">
+        <a href="appointment.html"><strong>Make an Appointment</strong></a>
+      </button>
+      <button class="Shop">
+        <a href="shop.html"><strong>Shop</strong></a>
+      </button>
+      <button class="Tattoo Gallery">
+        <a href="tgallery.html"><strong>Tattoo Gallery</strong></a>
+      </button>
+      <button class="Art Gallery">
+        <a href="agallery.html"><strong>Art Gallery</strong></a>
+      </button>
+      <button class="Contact">
+        <a href="contact.html"><strong>Contact</strong></a>
+      </button>
+    </div>
     <div>
       <h1>Make an Appointment / Schedule a Consultation</h1>
     </div>
+    <hr size="10" color="black" />
+    <form
+      action="mailto:preciouscornier13@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <label
+        >Full Name:
+        <input required size="30" type="text" name="Full Name" />
+      </label>
+      <br>
+      <label>
+        Phone Number:<input required size="20" type="tel" name="Phone Number" />
+      </label>
+      <br />
+      <label
+        >Email Address:
+        <input required size="30" type="email" name="Email" />
+      </label>
+      <br>
+      <label
+        >Are You Pregnant? Yes <input type="checkbox" /> No
+        <input type="checkbox" />
+      </label>
+      <br>
+      <label
+        >Age:
+        <input min="13" max="100" type="number" name="Age" />
+      </label>
+      <br />
+      <label
+        >Placement:
+        <input size="20" type="text" name="Placement"/>
+      </label>
+      <br>
+      <label
+        >Size
+        <input size="20" type="text" name="Size"/>
+      </label>
+      <br />
+      <label
+        >Tattoo Description:
+        <input required type="text" name="Description"/>
+      </label>
+      <br />
+      <label
+        >Reference Image:
+        <input type="file" />
+      </label>
+      <br />
+      <input type="submit" />
+      <h3></h3>
+    </form>
+    <hr size="10" color="black" />
   </body>
 </html>
