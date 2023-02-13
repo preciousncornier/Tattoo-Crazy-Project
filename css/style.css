@@ -1,0 +1,29 @@
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: white;
+    border-width: 6px;
+    width: 20%;
+  }
+  button {
+    background-color: black;
+    border-style: double;
+    border-color: white;
+    width: 127px;
+    font-size: 15px;
+  }
+  label {
+    color: white;
+  }
+  body {
+    background-color: #1c131e;
+  }
+  h1 {
+    color: white;
+  }
+  h2 {
+    color: white;
+  }
+  h3 {
+    color: white;
+  }
