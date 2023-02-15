@@ -1,64 +1,90 @@
 hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-color: white;
-    border-width: 6px;
-    width: 20%;
-  }
-  .menu-item {
-    background-color: black;
-    border-style: none;
-    width: 250px;
-    font-size: 20px;
-    font-weight: bold;
-    position: relative;
-    color: black;
-    text-align: center;
-  }
-  #main-menu-home {
-    top: 150px;
-    right: 40px;
-    letter-spacing: 5px;
-  }
-  #main-menu-appointment {
-    top: 127px;
-    left: 190px;
-    letter-spacing: 5px;
-  }
-  #main-menu-shop {
-    top: 104px;
-    left: 430px;
-    letter-spacing: 5px;
-  }
-  #main-menu-tgallery {
-    top: 81px;
-    left: 660px;
-    letter-spacing: 5px;
-  }
-  #main-menu-agallery {
-    top: 58px;
-    left: 900px;
-    letter-spacing: 5px;
-  }
-  #main-menu-contact {
-    top: 35px;
-    left: 1120px;
-    letter-spacing: 5px;
-  }
-  body {
-    background-color: #1c131e;
-  }
-  h1 {
-    color: white;
-  }
-  h2 {
-    color: white;
-  }
-  h3 {
-    color: white;
-  }
-  img {
-    position: relative;
-    left: 100px;
-    top: 100px;
-  }
+  border-style: none;
+  border-top-style: dotted;
+  border-color: white;
+  border-width: 6px;
+  width: 20%;
+}
+a.menu-item1:hover {
+  color: blue;
+  font-weight: bold;
+}
+a.menu-item2:hover {
+  color: red;
+  font-weight: bold;
+}
+a.menu-item3:hover {
+  color: green;
+  font-weight: bold;
+}
+a.menu-item4:hover {
+  color: yellow;
+  font-weight: bold;
+}
+a.menu-item5:hover {
+  color: purple;
+  font-weight: bold;
+}
+a.menu-item6:hover {
+  color: orange;
+  font-weight: bold;
+}
+.menu-item {
+  background-color: black;
+  border-style: none;
+  width: 250px;
+  font-size: 20px;
+  position: relative;
+  color: black;
+  text-align: center;
+}
+#main-menu-home {
+  top: 150px;
+  right: 40px;
+  letter-spacing: 5px;
+}
+#main-menu-appointment {
+  top: 127px;
+  left: 190px;
+  letter-spacing: 5px;
+}
+#main-menu-shop {
+  top: 104px;
+  left: 430px;
+  letter-spacing: 5px;
+}
+#main-menu-tgallery {
+  top: 81px;
+  left: 660px;
+  letter-spacing: 5px;
+}
+#main-menu-agallery {
+  top: 58px;
+  left: 900px;
+  letter-spacing: 5px;
+}
+#main-menu-contact {
+  top: 35px;
+  left: 1120px;
+  letter-spacing: 5px;
+}
+body {
+  background-color: #1c131e;
+}
+h1 {
+  color: white;
+}
+h2 {
+  color: white;
+}
+h3 {
+  color: white;
+}
+img {
+  position: relative;
+  left: 100px;
+  top: 100px;
+  border-style: groove;
+  border-color: white;
+  border-width: 5px;
+}
