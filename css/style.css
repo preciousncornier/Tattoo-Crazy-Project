@@ -5,15 +5,45 @@ hr {
     border-width: 6px;
     width: 20%;
   }
-  button {
+  .menu-item {
     background-color: black;
-    border-style: double;
-    border-color: white;
-    width: 127px;
-    font-size: 15px;
+    border-style: none;
+    width: 250px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    color: black;
+    text-align: center;
   }
-  label {
-    color: white;
+  #main-menu-home {
+    top: 150px;
+    right: 40px;
+    letter-spacing: 5px;
+  }
+  #main-menu-appointment {
+    top: 127px;
+    left: 190px;
+    letter-spacing: 5px;
+  }
+  #main-menu-shop {
+    top: 104px;
+    left: 430px;
+    letter-spacing: 5px;
+  }
+  #main-menu-tgallery {
+    top: 81px;
+    left: 660px;
+    letter-spacing: 5px;
+  }
+  #main-menu-agallery {
+    top: 58px;
+    left: 900px;
+    letter-spacing: 5px;
+  }
+  #main-menu-contact {
+    top: 35px;
+    left: 1120px;
+    letter-spacing: 5px;
   }
   body {
     background-color: #1c131e;
@@ -28,8 +58,7 @@ hr {
     color: white;
   }
   img {
-    padding-left: 30px;
-  }
-  #buttons {
-    color: blue;
+    position: relative;
+    left: 100px;
+    top: 100px;
   }
