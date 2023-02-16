@@ -1,45 +1,46 @@
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: white;
-  border-width: 6px;
-  width: 20%;
-}
 a.menu-item1:hover {
   color: blue;
   font-weight: bold;
+  transition: 0.3s;
 }
 a.menu-item2:hover {
   color: red;
   font-weight: bold;
+  transition: 0.3s;
 }
 a.menu-item3:hover {
   color: green;
   font-weight: bold;
+  transition: 0.3s;
 }
 a.menu-item4:hover {
   color: yellow;
   font-weight: bold;
+  transition: 0.3s;
 }
 a.menu-item5:hover {
   color: purple;
   font-weight: bold;
+  transition: 0.3s;
 }
 a.menu-item6:hover {
   color: orange;
   font-weight: bold;
+  transition: 0.3s;
 }
 .menu-item {
   background-color: black;
   border-style: none;
   width: 250px;
   font-size: 20px;
-  position: relative;
   color: black;
   text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  z-index: 2;
+  position: relative;
 }
 #main-menu-home {
-  top: 150px;
+    top: 150px;
   right: 40px;
   letter-spacing: 5px;
 }
@@ -55,12 +56,12 @@ a.menu-item6:hover {
 }
 #main-menu-tgallery {
   top: 81px;
-  left: 660px;
+  left: 640px;
   letter-spacing: 5px;
 }
 #main-menu-agallery {
   top: 58px;
-  left: 900px;
+  left: 890px;
   letter-spacing: 5px;
 }
 #main-menu-contact {
@@ -68,23 +69,8 @@ a.menu-item6:hover {
   left: 1120px;
   letter-spacing: 5px;
 }
-body {
-  background-color: #1c131e;
-}
-h1 {
-  color: white;
-}
-h2 {
-  color: white;
-}
-h3 {
-  color: white;
-}
-img {
-  position: relative;
-  left: 100px;
-  top: 100px;
-  border-style: groove;
-  border-color: white;
-  border-width: 5px;
+#heading {
+    position: fixed;
+    top: 0%;
+    z-index: 3;
 }
