@@ -58,7 +58,7 @@ hr {
   padding: 30px;
   z-index: 1;
 }
-#app {
+.app {
   position: relative;
   background-color: black;
   z-index: 2;
@@ -69,10 +69,10 @@ hr {
   left: 600px;
   text-align: center;
 }
-a.appp :hover {
+a.app:hover {
     color: red;
     transition: 0.3s;
-    font-weight: bold;
+    font-size: 18px;
 }
 a {
     color: #524056
