@@ -1,16 +1,10 @@
-h1 {
-  color: white;
-}
-h2 {
+p {
   color: white;
   z-index: 2;
 }
-p {
-  color: white;
-}
 body {
   background-color: #1c131e;
-}
+  }
 hr {
   border-style: none;
   border-top-style: dotted;
@@ -23,7 +17,7 @@ hr {
   left: 700px;
   bottom: 350px;
   width: 500px;
-  z-index: 2;
+  z-index: 3;
 }
 .text {
   position: relative;
@@ -31,9 +25,9 @@ hr {
 }
 #intro {
   position: relative;
-  bottom: 240px;
-  left: 450px;
-  font-size: 40px;
+  bottom: 215px;
+  left: 500px;
+  font-size: 30px;
   font-family: externalfont1;
 }
 #ad {
@@ -41,18 +35,18 @@ hr {
   font-size: 35px;
   font-family: externalfont1;
   left: 460px;
-  top: 200px;
+  top: 240px;
 }
 #ad2 {
   position: relative;
   font-size: 20px;
   font-family: externalfont2;
   left: 340px;
-  top: 170px;
+  top: 200px;
 }
 .box1 {
   width: 80%;
-  height: 5000px;
+  height: 4000px;
   position: relative;
   bottom: 900px;
   left: 100px;
@@ -61,23 +55,22 @@ hr {
   z-index: 1;
 }
 .box2 {
-    width: 80%;
     height: 300px;
     background-color: grey;
     z-index: 1;
     position: relative;
-    bottom: 5050px;
+    bottom: 3900px;
 
 }
 .app {
   position: relative;
   background-color: black;
-  z-index: 2;
+  z-index: 3;
   width: 215px;
   font-size: 16px;
   font-family: externalfont2;
-  top: 100px;
-  left: 600px;
+  top: 190px;
+  left: 620px;
   text-align: center;
 }
 a.app:hover {
@@ -93,7 +86,7 @@ a {
     font-size: 50px;
     font-family: externalfont1;
     text-align: center;
-    top: 245px;
+    top: 390px;
 }
 @font-face {
   font-family: externalfont1;
