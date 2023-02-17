@@ -4,6 +4,8 @@ p {
 }
 body {
   background-color: #1c131e;
+  max-width: 990px;
+  max-height: 2500px;
   }
 hr {
   border-style: none;
@@ -18,17 +20,68 @@ hr {
   bottom: 350px;
   width: 500px;
   z-index: 3;
+  font-family: externalfont4;
 }
 .text {
   position: relative;
   z-index: 2;
 }
-#intro {
+#fill {
   position: relative;
-  bottom: 215px;
-  left: 500px;
-  font-size: 30px;
-  font-family: externalfont1;
+  bottom: 225px;
+  left: 330px;
+  font-size: 35px;
+  font-family: externalfont3;
+  width: 1000px;
+}
+#c {
+  position: relative;
+  z-index: 2;
+  font-family: externalfont3;
+  font-size: 35px;
+  color: blue;
+  left: 943px;
+  bottom: 303px;
+}
+#r {
+  position: relative;
+  z-index: 2;
+  font-family: externalfont3;
+  font-size: 35px;
+  color: red;
+  left: 964px;
+  bottom: 379px;
+}
+#a {
+  position: relative;
+  z-index: 2;
+  font-family: externalfont3;
+  font-size: 35px;
+  color: green;
+  left: 985px;
+  bottom: 455px;
+}
+#z {
+  position: relative;
+  z-index: 2;
+  font-family: externalfont3;
+  font-size: 35px;
+  color: yellow;
+  left: 1009px;
+  bottom: 527px;
+}
+#y {
+  position: relative;
+  z-index: 2;
+  font-family: externalfont3;
+  font-size: 35px;
+  color: purple;
+  left: 1030px;
+  bottom: 610px;
+}
+.crazyl {
+  position: relative;
+  left: 30px;
 }
 #ad {
   position: relative;
@@ -45,10 +98,10 @@ hr {
   top: 200px;
 }
 .box1 {
-  width: 80%;
-  height: 4000px;
+  width: 1150px;
+  height: 3000px;
   position: relative;
-  bottom: 900px;
+  bottom: 1300px;
   left: 100px;
   background-color: black;
   padding: 30px;
@@ -59,7 +112,7 @@ hr {
     background-color: grey;
     z-index: 1;
     position: relative;
-    bottom: 3900px;
+    bottom: 2900px;
 
 }
 .app {
@@ -87,12 +140,4 @@ a {
     font-family: externalfont1;
     text-align: center;
     top: 390px;
-}
-@font-face {
-  font-family: externalfont1;
-  src: url(/fonts/Purple\ Smile.ttf);
-}
-@font-face {
-  font-family: externalfont2;
-  src: url(/fonts/Vanilla\ Caramel.otf);
 }

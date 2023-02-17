@@ -1,0 +1,16 @@
+@font-face {
+    font-family: externalfont1;
+    src: url(/fonts/Purple\ Smile.ttf);
+  }
+@font-face {
+    font-family: externalfont2;
+    src: url(/fonts/Vanilla\ Caramel.otf);
+  }
+@font-face {
+    font-family: externalfont3;
+    src: url(/fonts/Hug\ Me\ Tight\ -\ TTF.ttf);
+}
+@font-face {
+    font-family: externalfont4;
+    src: url(/fonts/Hey\ Comic.ttf);
+}
