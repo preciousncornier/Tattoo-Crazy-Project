@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/css/heading.css" />
     <link rel="stylesheet" href="/css/body.css" />
     <link rel="stylesheet" href="/css/body2.css" />
-    <link rel="stylesheet" href="/css/fonts.css"/>
+    <link rel="stylesheet" href="/css/fonts.css" />
   </head>
   <body>
     <div id="heading">
@@ -35,57 +35,71 @@
       </ul>
     </div>
     <h1 id="title" style="color: white">
-      <center>Make an Appointment</center>
+      <center>Schedule a Consultation</center>
     </h1>
-    <form
-      id="schedule"
-      action="mailto:preciouscornier13@gmail.com"
-      method="post"
-      enctype="text/plain"
-    >
-      <label id="fn"
-        >Full Name:
-        <input required size="30" type="text" name="Full Name" />
-      </label>
-      <label id="pn">
-        Phone Number:<input required size="30" type="tel" name="Phone Number" />
-      </label>
-      <br />
-      <label id="ea"
-        >Email Address:
-        <input required size="30" type="email" name="Email" />
-      </label>
-      <label id="preg"
-        >Are You Pregnant? Yes <input type="checkbox" /> No
-        <input type="checkbox" />
-      </label>
-      <br />
-      <label id="age"
-        >Age:
-        <input min="13" max="100" type="number" name="Age" />
-      </label>
-      <label id="place"
-        >Placement:
-        <input size="20" type="text" name="Placement" />
-      </label>
-      <br />
-      <label id="size"
-        >Size
-        <input size="20" type="text" name="Size" />
-      </label>
-      <br />
-      <label id="td"
-        >Tattoo Description:
-        <input required type="text" name="Description" />
-      </label>
-      <br />
-      <label id="ri"
-        >Reference Image:
-        <input type="file" />
-      </label>
-      <br />
-      <input id="sbutt" type="submit" />
-    </form>
+    <div id="form">
+      <form
+        id="consultation"
+        action="mailto:preciouscornier13@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <label id="fn"
+          >FULL NAME:
+          <input required size="40" type="text" name="Full Name" />
+        </label>
+        <label id="pn">
+          Phone Number: <input
+            required
+            size="30"
+            type="tel"
+            name="Phone Number"
+          />
+        </label>
+        <br />
+        <label id="ea"
+          >Email Address:
+          <input required size="40" type="email" name="Email" />
+        </label>
+        <label id="ques"
+          >Are You Pregnant?
+          <input type="radio" id="yes0" name="Pregnant" value="YES" />
+          <label for="yes0" id="yes00">Yes</label>
+          <input type="radio" id="no0" name="Pregnant" value="NO" />
+          <label for="no0" id="no00">No</label>
+        </label>
+        <br />
+        <label id="place"
+          >Placement:
+          <input size="30" type="text" name="Placement" />
+        </label>
+        <label id="age"
+          >Age:
+          <input min="13" max="100" type="number" name="Age" />
+        </label>
+        <br />
+        <label id="size"
+          >Size: 
+          <input size="30" type="text" name="Size" />
+        </label>
+        <br />
+        <label id="td"
+          >Tattoo Description:
+          <input required type="text" size="50" name="Description" />
+        </label>
+        <br />
+        <br>
+        <br>
+        <br>
+        <br>
+        <label id="ri"
+          >Reference Image:
+          <input type="file" />
+        </label>
+        <br />
+        <input id="sbutt" type="submit" />
+      </form>
+    </div>
     <div class="box01"></div>
   </body>
 </html>
