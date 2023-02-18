@@ -8,10 +8,15 @@
     <link rel="stylesheet" href="/css/img.css" />
     <link rel="stylesheet" href="/css/heading.css" />
     <link rel="stylesheet" href="/css/body.css" />
-    <link rel="stylesheet" href="/css/body2.css"/>
-    <link rel="stylesheet" href="/css/fonts.css"/>
+    <link rel="stylesheet" href="/css/body2.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="text" href="/javascript/gallery.js" />
   </head>
   <body>
+    <div id="boxes">
+      <div class="box1"></div>
+      <div class="box2"></div>
+    </div>
     <div class="page-contents">
       <div id="heading">
         <ul id="main-menu-nav" class="nav-bar">
@@ -36,26 +41,79 @@
         </ul>
       </div>
     </div>
-    <img id="self" src="/images/main.png" height="400px" width="380px" alt="" />
-    <div class="text">
-      <p id="fill">Fill your Tattoo Addiction w/ Tattoo</p>
-      <div class="crazyl">
-        <p id="c">c</p>
-        <p id="r">r</p>
-        <p id="a">a</p>
-        <p id="z">z</p>
-        <p id="y">y</p>
+    <div class="sec1">
+      <img
+        id="self"
+        src="/images/main.png"
+        height="500px"
+        width="380px"
+        alt=""
+      />
+      <div class="text">
+        <p id="fill">Fill your Tattoo Addiction w/ Tattoo</p>
+        <div class="crazyl">
+          <p id="c">c</p>
+          <p id="r">r</p>
+          <p id="a">a</p>
+          <p id="z">z</p>
+          <p id="y">y</p>
+        </div>
+        <p id="bio">
+          Artist located at in Timonium, Maryland with over 10 years of
+          experience in the field. My style is very versatile, but I enjoy
+          working with color and grey scale.
+        </p>
+        <p id="bio2">ENTER MORE BIO HERE</p>
+        <hr id="bpic" />
       </div>
-      <p id="ad">Looking For a New Tattoo?</p>
-      <p id="ad2">Schedule a consultation! Follow the link below and fill out theapplication to hear back soon.</p>
-      <p id="bio">Artist located at in Timonium, Maryland with over 10 years of experience in the field. My style is very
-        versatile, but I enjoy working with color and grey scale. </p>
-      <a class="app" href="appointment.html">Schedule an Appointment</a>
-      <p id="shop">SHOP COMING SOON</p>
     </div>
-    <div id="boxes">
-      <div class="box1"></div>
-      <div class="box2"></div>
+    <div class="sec02">
+      <div class="images gal">
+        <img onclick="changeimg(this)" src="/images/scream.png" alt="" />
+        <img onclick="changeimg(this)" src="/images/army.png" alt="" />
+        <img onclick="changeimg(this)" src="/images/medusa.png" alt="" />
+        <img onclick="changeimg(this)" src="/images/nun.png" alt="" />
+        <img onclick="changeimg(this)" src="/images/symbol.png" alt="" />
+        <img onclick="changeimg(this)" src="/images/angel.png" alt="">
+      </div>
+      <div class="pre gal">
+        <a onclick="this.parentElement.style.display= 'none'" class="ion-close"
+          >X</a
+        >
+        <img id="p" src="/images/nun.png" alt="" />
+      </div>
+      <script type="text/javascript">
+        function changeimg(image) {
+          var p = document.getElementById("p");
+          p.src = image.src;
+          p.parentElement.style.display = "block";
+        }
+      </script>
+      <div class="featured">
+        <p>F</p>
+        <p>E</p>
+        <p>A</p>
+        <p>T</p>
+        <p>U</p>
+        <p>R</p>
+        <p>E</p>
+        <p>D</p>
+      </div>
+    </div>
+    <div class="sec3">
+      <div class="textS3">
+        <p id="ad">Looking For a New Tattoo?</p>
+        <p id="ad2">
+          Schedule a consultation! Follow the link below and fill out the
+          application to hear back soon.
+        </p>
+        <a class="app" href="appointment.html">Schedule an Appointment</a>
+      </div>
+    </div>
+    <div class="sec4">
+      <div class="textS4">
+        <p id="shop">SHOP COMING SOON</p>
+      </div>
     </div>
   </body>
 </html>
