@@ -13,12 +13,21 @@
     <link rel="text" href="/javascript/gallery.js" />
   </head>
   <body>
-    <div id="boxes">
+    <div class="boxes">
       <div class="box1"></div>
       <div class="box2"></div>
     </div>
-    <div class="page-contents">
-      <div id="heading">
+    <div class="topofpage">
+      <div class="banner">
+        <img
+          class="banner0"
+          width="1410px"
+          height="180px"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZlpQF8l1MbA133ZVGBE-fejasOighAnlcjA&usqp=CAU"
+          alt=""
+        />
+      </div>
+      <div class="heading">
         <ul id="main-menu-nav" class="nav-bar">
           <li id="main-menu-home" class="menu-item">
             <a class="menu-item1" href="index.html">Home</a>
@@ -45,8 +54,8 @@
       <img
         id="self"
         src="/images/main.png"
-        height="500px"
-        width="380px"
+        height="600px"
+        width="400px"
         alt=""
       />
       <div class="text">
@@ -74,7 +83,7 @@
         <img onclick="changeimg(this)" src="/images/medusa.png" alt="" />
         <img onclick="changeimg(this)" src="/images/nun.png" alt="" />
         <img onclick="changeimg(this)" src="/images/symbol.png" alt="" />
-        <img onclick="changeimg(this)" src="/images/angel.png" alt="">
+        <img onclick="changeimg(this)" src="/images/angel.png" alt="" />
       </div>
       <div class="pre gal">
         <!-- THIS COMMAND CREATES A X BUTTON ON SLIDESHOW
@@ -92,12 +101,37 @@
     </div>
     <div class="sec3">
       <div class="textS3">
-        <p id="ad">Looking For a New Tattoo?</p>
-        <p id="ad2">
+        <p id="ad" class="ap">Looking For a New Tattoo?</p>
+        <p id="ad2" class="ap">
           Schedule a consultation! Follow the link below and fill out the
           application to hear back soon.
         </p>
-        <a class="app" href="appointment.html">Schedule an Appointment</a>
+        <a class="app ap" href="appointment.html">Schedule an Appointment</a>
+      </div>
+      <div class="pictab">
+        <table class="tab">
+          <tr>
+            <td class="tabpics">
+              <img src="/images/heiro.png" alt="">
+            </td>
+            <td class="tabpics">
+              <img src="/images/skull.png" alt="">
+            </td>
+            <td class="tabpics">
+              <img src="/images/angel.png" alt="">
+            </td>
+          </tr>
+          <tr>
+            <td class="tabpics">
+              <img src="/images/symbol.png" alt="">
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="reels">
+        <video id="reel1" width="320" height="320" controls autoplay>
+          <source src="https://www.instagram.com/reel/CnPp9ybAB7r/" />
+        </video>
       </div>
     </div>
     <div class="sec4">
