@@ -1,9 +1,9 @@
 #self {
     position: relative;
-    left: 210px;
-    top: 300px;
+    left: 240px;
+    top: -10px;
     border-style: groove;
-    border-color: white;
+    border-color: blue;
     border-width: 5px;
-    z-index: 2;
+    z-index: 4;
 }

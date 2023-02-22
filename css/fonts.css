@@ -14,3 +14,19 @@
     font-family: externalfont4;
     src: url(/fonts/Hey\ Comic.ttf);
 }
+@font-face {
+  font-family: externalfontgothic;
+  src: url(/fonts/CloisterBlack.ttf);
+}
+@font-face {
+  font-family: externalfontancient;
+  src: url(/fonts/Ancient\ Medium.ttf);
+}
+@font-face {
+  font-family: externalfontcalsun;
+  src: url(/fonts/California\ sun.ttf);
+}
+@font-face {
+  font-family: externalfonthello;
+  src: url(/fonts/Hello\ Christmas.otf);
+}

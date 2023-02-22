@@ -31,46 +31,70 @@ a.menu-item6:hover {
 .menu-item {
   background-color: black;
   border-style: none;
-  width: 250px;
-  font-size: 20px;
+  width: 300px;
+  height: 40px;
+  font-size: 25px;
   color: black;
   text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: externalfontancient;
   position: relative;
-  z-index: 5;
+  z-index: 9;
+}
+.menu-item1 {
+  text-decoration: none;
+}
+.menu-item2 {
+  text-decoration: none;
+}
+.menu-item3 {
+  text-decoration: none;
+}
+.menu-item4 {
+  text-decoration: none;
+}
+.menu-item5 {
+  text-decoration: none;
+}
+.menu-item6 {
+  text-decoration: none;
 }
 #main-menu-home {
   top: 150px;
-  right: 40px;
+  right: 50px;
   letter-spacing: 5px;
 }
 #main-menu-appointment {
-  top: 127px;
-  left: 190px;
+  top: 110px;
+  left: 170px;
   letter-spacing: 5px;
 }
 #main-menu-shop {
-  top: 104px;
-  left: 430px;
+  top: 70px;
+  left: 450px;
   letter-spacing: 5px;
 }
 #main-menu-tgallery {
-  top: 81px;
-  left: 640px;
+  top: 30px;
+  left: 740px;
   letter-spacing: 5px;
 }
 #main-menu-agallery {
-  top: 58px;
-  left: 890px;
+  top: -10px;
+  left: 1030px;
   letter-spacing: 5px;
 }
 #main-menu-contact {
-  top: 35px;
-  left: 1120px;
+  top: -50px;
+  left: 1329px;
   letter-spacing: 5px;
 }
-#heading {
+.nav-bar {
+  position: relative;
+  bottom: 167px;
+  z-index: 9;
+}
+.heading {
   position: fixed;
   top: 0%;
-  z-index: 5;
+  z-index: 9;
 }
