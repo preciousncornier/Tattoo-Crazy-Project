@@ -30,3 +30,7 @@
   font-family: externalfonthello;
   src: url(/fonts/Hello\ Christmas.otf);
 }
+@font-face {
+  font-family: externalfontsimp;
+  src: url(/fonts/SimpleHandmade.ttf);
+}
