@@ -9,16 +9,17 @@ label {
 }
 #fn {
     position: relative;
-    font-family: externalfont4;
-    position: relative;
+    font-family: externalfontsimp;
+    font-weight: bold;
     z-index: 2;
     font-size: 25px;
     left: 300px;
     top: 100px;
 }
 #pn {
-    font-family: externalfont4;
+    font-family: externalfontsimp;
     position: relative;
+    font-weight: bold;
     z-index: 2;
     font-size: 25px;
     left: 380px;
@@ -26,31 +27,34 @@ label {
 }
 #ea {
     position: relative;
-    font-family: externalfont4;
-    position: relative;
+    font-family: externalfontsimp;
+    font-weight: bold;
     z-index: 2;
     font-size: 25px;
     left: 300px;
     top: 100px;
 }
 #ques {
-    font-family: externalfont4;
+    font-family: externalfontsimp;
     position: relative;
+    font-weight: bold;
     z-index: 2;
     font-size: 25px;
     left: 335px;
     top: 100px;
 }
 #age {
-    font-family: externalfont4;
+    font-family: externalfontsimp;
     position: relative;
+    font-weight: bold;
     z-index: 2;
     font-size: 25px;
     left: 450px;
     top: 100px;
 }
 #place {
-    font-family: externalfont4;
+    font-family: externalfontsimp;
+    font-weight: bold;
     position: relative;
     z-index: 2;
     font-size: 25px;
@@ -58,7 +62,8 @@ label {
     top: 100px;
 }
 #size {
-    font-family: externalfont4;
+    font-family: externalfontsimp;
+    font-weight: bold;
     position: relative;
     z-index: 2;
     font-size: 25px;
@@ -66,7 +71,8 @@ label {
     top: 100px;
 }
 #td {
-    font-family: externalfont4;
+    font-family: externalfontsimp;
+    font-weight: bold;
     position: relative;
     z-index: 2;
     font-size: 25px;
@@ -74,7 +80,8 @@ label {
     top: 100px;
 }
 #ri {
-    font-family: externalfont4;
+    font-family: externalfontsimp;
+    font-weight: bold;
     position: relative;
     z-index: 2;
     font-size: 25px;
@@ -82,11 +89,13 @@ label {
     top: 100px;
 }
 #sbutt {
-    font-family: externalfont4;
+    font-family: externalfontsimp;
+    font-weight: bold;
     position: relative;
     z-index: 2;
+    border-radius: 15px;
     font-size: 25px;
-    left: 745px;
+    left: 775px;
     top: 100px;
 }
 #title {
