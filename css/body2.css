@@ -1,3 +1,8 @@
+h1 {
+    color: white;
+    z-index: 2;
+    position: relative;
+}
 label {
     color: white;
     line-height: 45px;
@@ -8,16 +13,16 @@ label {
     position: relative;
     z-index: 2;
     font-size: 25px;
-    left: 200px;
-    top: 200px;
+    left: 300px;
+    top: 100px;
 }
 #pn {
     font-family: externalfont4;
     position: relative;
     z-index: 2;
     font-size: 25px;
-    left: 280px;
-    top: 200px;
+    left: 380px;
+    top: 100px;
 }
 #ea {
     position: relative;
@@ -25,72 +30,67 @@ label {
     position: relative;
     z-index: 2;
     font-size: 25px;
-    left: 200px;
-    top: 200px;
+    left: 300px;
+    top: 100px;
 }
 #ques {
     font-family: externalfont4;
     position: relative;
     z-index: 2;
     font-size: 25px;
-    left: 235px;
-    top: 200px;
+    left: 335px;
+    top: 100px;
 }
 #age {
     font-family: externalfont4;
     position: relative;
     z-index: 2;
     font-size: 25px;
-    left: 350px;
-    top: 200px;
+    left: 450px;
+    top: 100px;
 }
 #place {
     font-family: externalfont4;
     position: relative;
     z-index: 2;
     font-size: 25px;
-    left: 200px;
-    top: 200px;
+    left: 300px;
+    top: 100px;
 }
 #size {
     font-family: externalfont4;
     position: relative;
     z-index: 2;
     font-size: 25px;
-    left: 200px;
-    top: 200px;
+    left: 300px;
+    top: 100px;
 }
 #td {
     font-family: externalfont4;
     position: relative;
     z-index: 2;
     font-size: 25px;
-    left: 200px;
-    top: 200px;
+    left: 300px;
+    top: 100px;
 }
 #ri {
     font-family: externalfont4;
     position: relative;
     z-index: 2;
     font-size: 25px;
-    left: 200px;
-    top: 200px;
+    left: 300px;
+    top: 100px;
 }
 #sbutt {
     font-family: externalfont4;
     position: relative;
     z-index: 2;
     font-size: 25px;
-    left: 645px;
-    top: 200px;
-}
-h1 {
-    color: white;
-    z-index: 2;
-    position: relative;
+    left: 745px;
+    top: 100px;
 }
 #title {
-    top: 190px;
-    font-family: externalfont4;
-    font-size: 40px;
+    top: 50px;
+    font-family: externalfontsimp;
+    font-size: 60px;
 }
