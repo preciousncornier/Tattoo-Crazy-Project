@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+}
+#map {
+    position: absolute;
+    z-index: 2;
+    left: 450px;
+    top: 200px;
+    border: solid orange;
+    border-radius: 5px;
+}
+#shoploc {
+    position: absolute;
+    z-index: 3;
+    top: 30px;
+    left: 650px;
+    color: white;
+    font-size: 50px;
+    font-family: externalfontsimp;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+#addy {
+    position: absolute;
+    z-index: 3;
+    color: white;
+    top: 200px;
+}

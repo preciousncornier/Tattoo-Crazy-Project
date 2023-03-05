@@ -1,9 +1,0 @@
-#self {
-    position: relative;
-    left: 240px;
-    top: 50px;
-    border-style: groove;
-    border-color: blue;
-    border-width: 5px;
-    z-index: 4;
-}

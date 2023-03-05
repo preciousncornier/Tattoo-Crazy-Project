@@ -1,105 +1,145 @@
 h1 {
-    color: white;
-    z-index: 2;
-    position: relative;
+  color: white;
+  z-index: 3;
+  position: relative;
+}
+body {
+  background-color: black;
 }
 label {
-    color: white;
-    line-height: 45px;
+  color: white;
+  line-height: 45px;
 }
 #fn {
-    position: relative;
-    font-family: externalfontsimp;
-    font-weight: bold;
-    z-index: 2;
-    font-size: 25px;
-    left: 300px;
-    top: 100px;
+  position: relative;
+  font-family: externalfontsimp;
+  font-weight: bold;
+  z-index: 3;
+  font-size: 25px;
+  left: 400px;
+  top: 100px;
 }
 #pn {
-    font-family: externalfontsimp;
-    position: relative;
-    font-weight: bold;
-    z-index: 2;
-    font-size: 25px;
-    left: 380px;
-    top: 100px;
+  font-family: externalfontsimp;
+  position: relative;
+  font-weight: bold;
+  z-index: 3;
+  font-size: 25px;
+  left: 500px;
+  top: 100px;
 }
 #ea {
-    position: relative;
-    font-family: externalfontsimp;
-    font-weight: bold;
-    z-index: 2;
-    font-size: 25px;
-    left: 300px;
-    top: 100px;
+  position: relative;
+  font-family: externalfontsimp;
+  font-weight: bold;
+  z-index: 3;
+  font-size: 25px;
+  left: 400px;
+  top: 100px;
 }
 #ques {
-    font-family: externalfontsimp;
-    position: relative;
-    font-weight: bold;
-    z-index: 2;
-    font-size: 25px;
-    left: 335px;
-    top: 100px;
+  font-family: externalfontsimp;
+  position: relative;
+  font-weight: bold;
+  z-index: 3;
+  font-size: 25px;
+  left: 450px;
+  top: 100px;
 }
 #age {
-    font-family: externalfontsimp;
-    position: relative;
-    font-weight: bold;
-    z-index: 2;
-    font-size: 25px;
-    left: 450px;
-    top: 100px;
+  font-family: externalfontsimp;
+  position: relative;
+  font-weight: bold;
+  z-index: 3;
+  font-size: 25px;
+  left: 560px;
+  top: 100px;
 }
 #place {
-    font-family: externalfontsimp;
-    font-weight: bold;
-    position: relative;
-    z-index: 2;
-    font-size: 25px;
-    left: 300px;
-    top: 100px;
+  font-family: externalfontsimp;
+  font-weight: bold;
+  position: relative;
+  z-index: 3;
+  font-size: 25px;
+  left: 400px;
+  top: 100px;
 }
 #size {
-    font-family: externalfontsimp;
-    font-weight: bold;
-    position: relative;
-    z-index: 2;
-    font-size: 25px;
-    left: 300px;
-    top: 100px;
+  font-family: externalfontsimp;
+  font-weight: bold;
+  position: relative;
+  z-index: 3;
+  font-size: 25px;
+  left: 400px;
+  top: 100px;
 }
 #td {
-    font-family: externalfontsimp;
-    font-weight: bold;
-    position: relative;
-    z-index: 2;
-    font-size: 25px;
-    left: 300px;
-    top: 100px;
+  font-family: externalfontsimp;
+  font-weight: bold;
+  position: relative;
+  z-index: 3;
+  font-size: 25px;
+  left: 400px;
+  top: 100px;
 }
 #ri {
-    font-family: externalfontsimp;
-    font-weight: bold;
-    position: relative;
-    z-index: 2;
-    font-size: 25px;
-    left: 300px;
-    top: 100px;
+  font-family: externalfontsimp;
+  font-weight: bold;
+  position: relative;
+  z-index: 3;
+  font-size: 25px;
+  left: 400px;
+  top: 100px;
 }
 #sbutt {
-    font-family: externalfontsimp;
-    font-weight: bold;
-    position: relative;
-    z-index: 2;
-    border-radius: 15px;
-    font-size: 25px;
-    left: 775px;
-    top: 100px;
+  font-family: externalfontsimp;
+  font-weight: bold;
+  position: relative;
+  z-index: 3;
+  border-radius: 15px;
+  font-size: 25px;
+  left: 775px;
+  top: 100px;
 }
 #title {
-    top: 50px;
-    font-family: externalfontsimp;
-    font-size: 60px;
+  top: 50px;
+  font-family: externalfontsimp;
+  font-size: 60px;
+}
+#box01 {
+  width: 1000px;
+  height: 650px;
+  top: 50px;
+  right: 330px;
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  z-index: 2;
+  opacity: 70%;
+}
+#backg2 {
+  position: absolute;
+  z-index: 1;
+  top: 40px;
+}
+#backg3 {
+  position: absolute;
+  z-index: 1;
+  right: 0px;
+  top: 40px;
+}
+.ig {
+  position: absolute;
+  bottom: 50px;
+  left: 700px;
+  height: 50px;
+  z-index: 6;
+}
+#copyr {
+  position: absolute;
+  left: 600px;
+  font-weight: bold;
+  bottom: 0px;
+  width: 1000px;
+  z-index: 8;
+  color: white;
 }
