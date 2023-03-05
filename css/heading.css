@@ -23,15 +23,10 @@ a.menu-item5:hover {
   font-weight: bold;
   transition: 0.3s;
 }
-a.menu-item6:hover {
-  color: orange;
-  font-weight: bold;
-  transition: 0.3s;
-}
 .menu-item {
   background-color: black;
   border-style: none;
-  width: 300px;
+  width: 400px;
   height: 40px;
   font-size: 25px;
   color: black;
@@ -55,38 +50,36 @@ a.menu-item6:hover {
 .menu-item5 {
   text-decoration: none;
 }
-.menu-item6 {
-  text-decoration: none;
-}
 #main-menu-home {
   top: 150px;
   right: 50px;
-  letter-spacing: 5px;
+  letter-spacing: 8px;
+  font-size: 30px
 }
 #main-menu-appointment {
   top: 110px;
-  left: 170px;
-  letter-spacing: 5px;
+  left: 240px;
+  letter-spacing: 8px;
+  font-size: 30px;
 }
 #main-menu-shop {
   top: 70px;
-  left: 450px;
-  letter-spacing: 5px;
+  left: 540px;
+  z-index: 1;
+  letter-spacing: 8px;
+  font-size: 30px;
 }
 #main-menu-tgallery {
   top: 30px;
-  left: 740px;
-  letter-spacing: 5px;
+  left: 850px;
+  letter-spacing: 8px;
+  font-size: 30px;
 }
 #main-menu-agallery {
   top: -10px;
-  left: 1030px;
-  letter-spacing: 5px;
-}
-#main-menu-contact {
-  top: -50px;
-  left: 1329px;
-  letter-spacing: 5px;
+  right: -1230px;
+  letter-spacing: 8px;
+  font-size: 30px;
 }
 .nav-bar {
   position: relative;
