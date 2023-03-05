@@ -5,11 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tattoo Gallery</title>
-    <link rel="stylesheet" href="/css/img.css" />
     <link rel="stylesheet" href="/css/heading.css"/>
-    <link rel="stylesheet" href="/css/body.css"/>
-    <link rel="stylesheet" href="/css/body2.css"/>
-    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/fonts.css"/>
+    <link rel="stylesheet" href="/css/tgall.css"/>
   </head>
   <body>
     <div class="topofpage">
@@ -30,13 +28,31 @@
           <li id="main-menu-agallery" class="menu-item">
             <a class="menu-item5" href="agallery.html">Art Gallery</a>
           </li>
-          <li id="main-menu-contact" class="menu-item">
-            <a class="menu-item6" href="contact.html">Contact Info</a>
-          </li>
         </ul>
       </div>
-      <img id="bimg" width="1455px" src="/images/old-black-brick-wall-background_73152-4052.jpg.avif" alt="">
-    </div>
-    <h1 style="color: white;"><center>Tattoo Gallery</center></h1>
-    <hr>
+      <div class="pre tgal">
+        <img id="pic" src="" alt="">
+        <a onclick="this.parentElement.style.display= 'none'" class="ion-close">close</a>
+      </div>
+      <div class="images tgal">
+        <img onclick="changeimg(this)" src="/images/angel.png" width="300px" height="300px" alt="">
+        <img onclick="changeimg(this)" src="/images/angel.png" width="300px" height="300px" alt="">
+        <img onclick="changeimg(this)" src="/images/angel.png" width="300px" height="300px" alt="">
+        <img onclick="changeimg(this)" src="/images/angel.png" width="300px" height="300px" alt="">
+        <img onclick="changeimg(this)" src="/images/angel.png" width="300px" height="300px" alt="">
+        <img onclick="changeimg(this)" src="/images/angel.png" width="300px" height="300px" alt="">
+        <img onclick="changeimg(this)" src="/images/angel.png" width="300px" height="300px" alt="">
+        <img onclick="changeimg(this)" src="/images/angel.png" width="300px" height="300px" alt="">
+        <img onclick="changeimg(this)" src="/images/angel.png" width="300px" height="300px" alt="">
+        <img onclick="changeimg(this)" src="/images/angel.png" width="300px" height="300px" alt="">
+        <img onclick="changeimg(this)" src="/images/angel.png" width="300px" height="300px" alt="">
+        <img onclick="changeimg(this)" src="/images/angel.png" width="300px" height="300px" alt="">
+      </div>
+      <script type="text/javascript">
+        function changeimg(image) {
+          var pic = document.getElementById("pic");
+          pic.src = image.src;
+          pic.parentElement.style.display = "block";
+        }
+      </script>
 </html>
