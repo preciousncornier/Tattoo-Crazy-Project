@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Book an Appointment</title>
-    <link rel="stylesheet" href="/css/img.css" />
     <link rel="stylesheet" href="/css/heading.css" />
-    <link rel="stylesheet" href="/css/body.css" />
     <link rel="stylesheet" href="/css/body2.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
   </head>
@@ -19,7 +17,7 @@
             <a class="menu-item1" href="index.html">Home</a>
           </li>
           <li id="main-menu-appointment" class="menu-item">
-            <a class="menu-item2" href="appointment.html">Appointment</a>
+            <a class="menu-item2" href="appointment.html">Contact Us</a>
           </li>
           <li id="main-menu-shop" class="menu-item">
             <a class="menu-item3" href="shop.html">Shop</a>
@@ -30,11 +28,19 @@
           <li id="main-menu-agallery" class="menu-item">
             <a class="menu-item5" href="agallery.html">Art Gallery</a>
           </li>
-          <li id="main-menu-contact" class="menu-item">
-            <a class="menu-item6" href="contact.html">Contact Info</a>
-          </li>
         </ul>
       </div>
+    </div>
+    <div id="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3081.5045100560797!2d-76.62573048495385!3d39.435327622661504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c80e142227ed0b%3A0xa0cb52ad2012ef4e!2s1921%20York%20Rd%2C%20Timonium%2C%20MD%2021093!5e0!3m2!1sen!2sus!4v1678029594671!5m2!1sen!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="contacttext">
+      <p id="shoploc">SHOP LOCATION</p>
+      <p id="addy">1921 York Road | Timonium, MD 21093</p>
+      <p id="hours">HOURS</p>
+      <p id="hoo">Monday - Friday <br>10am to 10pm <br>Saturday - Sunday <br>12pm to 12am</p>
+      <p id="dep">Minimum Deposit of $100 <br>Deposit required in order to book appointment <br>
+      More words to put in <br>More words to put in</p>
     </div>
     <h1 id="title" style="color: white">
       <center>Schedule a Consultation</center>
@@ -48,10 +54,10 @@
       >
         <label id="fn"
           >Full Name:
-          <input required size="40" type="text" name="Full Name" />
+          <input id="fnin" required size="40" type="text" name="Full Name" />
         </label>
         <label id="pn">
-          Phone Number: <input
+          Phone Number: <input id="pnin"
             required
             size="30"
             type="tel"
@@ -61,10 +67,10 @@
         <br />
         <label id="ea"
           >Email Address:
-          <input required size="40" type="email" name="Email" />
+          <input id="eain" required size="40" type="email" name="Email" />
         </label>
         <label id="ques"
-          >Are You Pregnant?
+          >INSERT QUESTION HERE?
           <input type="radio" id="yes0" name="Pregnant" value="YES" />
           <label for="yes0" id="yes00">YES</label>
           <input type="radio" id="no0" name="Pregnant" value="NO" />
@@ -73,21 +79,21 @@
         <br />
         <label id="place"
           >Placement:
-          <input size="30" type="text" name="Placement" />
+          <input id="placein" size="30" type="text" name="Placement" />
         </label>
         <label id="age"
           >Age:
-          <input min="13" max="100" type="number" name="Age" />
+          <input id="agein" min="13" max="100" type="number" name="Age" />
         </label>
         <br />
         <label id="size"
           >Size: 
-          <input size="30" type="text" name="Size" />
+          <input id="sizein" size="30" type="text" name="Size" />
         </label>
         <br />
         <label id="td"
           >Tattoo Description:
-          <input required type="text" size="50" name="Description" />
+          <input id="tdin" required type="text" size="50" name="Description" />
         </label>
         <br />
         <br>
@@ -102,6 +108,22 @@
         <input id="sbutt" type="submit" />
       </form>
     </div>
-    <div id="box01"></div>
+    <div id="line1"></div>
+    <div id="line2"></div>
+    <div id="line3"></div>
+    <div class="sec4">
+      <div class="social">
+        <div class="insta">
+          <a href="https://instagram.com/_tattoocrazy_/">
+            <img class="ig" width:50px src="/images/pngwing.com.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="foottext">
+        <p id="copyr">COPYRIGHT © 2021 TATTOOCRAZY | ALL RIGHTS RESERVED</p>
+      </div>
+    </div>
   </body>
 </html>
