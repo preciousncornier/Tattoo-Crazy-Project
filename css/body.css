@@ -291,6 +291,15 @@ a.app:hover {
   z-index: 3;
 }
 /*SECTION 4 HOMEPAGE IN6*/
+#featat {
+  position: absolute;
+  z-index: 6;
+  bottom: -1100px;
+  left: -800px;
+  font-family: externalfontancient;
+  font-size: 70px;
+  color: white;
+}
 .sec4 {
   position: relative;
   bottom: -2000px;

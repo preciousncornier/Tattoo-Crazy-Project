@@ -49,8 +49,31 @@ body {
   font-family: externalfontsimp;
   font-weight: bold;
   font-size: 50px;
-  left: 200px;
-  bottom: -230px;
+  left: 160px;
+  bottom: 500px;
+}
+#hoo {
+  position: absolute;
+  z-index: 3;
+  color: white;
+  top: 300px;
+  left: 140px;
+  text-align: center;
+  font-size: 25px;
+  font-family: externalfontsimp;
+  line-height: 40px;
+}
+#dep {
+  position: absolute;
+  z-index: 3;
+  color: white;
+  text-align: center;
+  font-family: externalfontsimp;
+  font-size: 30px;
+  width: 500px;
+  bottom: -450px;
+  left: 50px;
+  line-height: 40px;
 }
 label {
   color: white;
@@ -65,6 +88,10 @@ label {
   left: 400px;
   top: 100px;
 }
+#fnin {
+  font-family: externalfontsimp;
+  font-size: 20px;
+}
 #pn {
   font-family: externalfontsimp;
   position: relative;
@@ -74,6 +101,10 @@ label {
   left: 500px;
   top: 100px;
 }
+#pnin {
+  font-family: externalfontsimp;
+  font-size: 20px;
+}
 #ea {
   position: relative;
   font-family: externalfontsimp;
@@ -82,6 +113,10 @@ label {
   font-size: 25px;
   left: 400px;
   top: 100px;
+}
+#eain {
+  font-family: externalfontsimp;
+  font-size: 20px;
 }
 #ques {
   font-family: externalfontsimp;
@@ -101,6 +136,10 @@ label {
   left: 560px;
   top: 100px;
 }
+#agein {
+  font-family: externalfontsimp;
+  font-size: 20px;
+}
 #place {
   font-family: externalfontsimp;
   font-weight: bold;
@@ -109,6 +148,10 @@ label {
   font-size: 25px;
   left: 400px;
   top: 100px;
+}
+#placein {
+  font-family: externalfontsimp;
+  font-size: 20px;
 }
 #size {
   font-family: externalfontsimp;
@@ -119,7 +162,20 @@ label {
   left: 400px;
   top: 100px;
 }
+#sizein {
+  font-family: externalfontsimp;
+  font-size: 20px;
+}
 #td {
+  font-family: externalfontsimp;
+  font-weight: bold;
+  position: relative;
+  z-index: 3;
+  font-size: 25px;
+  left: 600px;
+  top: 60px;
+}
+#td1 {
   font-family: externalfontsimp;
   font-weight: bold;
   position: relative;
@@ -145,12 +201,13 @@ label {
   border-radius: 10px;
   font-size: 25px;
   left: 775px;
-  top: 200px;
+  top: 150px;
 }
 #title {
   top: 900px;
   right: -150px;
   font-family: externalfontsimp;
+  font-weight: bold;
   font-size: 60px;
 }
 #line1 {
@@ -174,8 +231,14 @@ label {
   z-index: 3;
   border-bottom: solid white 3px;
   width: 100px;
-  bottom: -220px;
-  right: 1365px;
+  bottom: 520px;
+  right: 1405px;
+}
+#backgimg {
+  position: fixed;
+  z-index: 1;
+  right: 0px;
+  top: 0px;
 }
 .ig {
   position: absolute;
